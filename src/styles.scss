@@ -1,0 +1,61 @@
+.mainbox{
+  position: relative;
+  display: block;
+  background-color:green;
+  margin: 0 auto;
+  max-width:500px;
+  width:100%;
+  height:auto;
+  padding:30px;
+  box-sizing:border-box;
+  color:white;
+  .cont_ind{
+    position: relative;
+    display:inline-block;
+    width:49%;
+    div{
+      padding-top:15px;
+    }
+  }
+
+  .content_operation{
+    position: relative;
+    display: block;
+
+    .btn{
+      position: relative;
+      display: inline-block;
+      padding:15px;
+    }
+  }
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.container{
+  .titulo{
+    background-color:green;
+    padding-top:5px;
+    padding-bottom: 5px;
+  }
+  .informacion{
+    border: 1px solid black;
+    text-align:center;
+     >div{
+     position: relative;
+     display: inline-block;
+     width:20%;
+     }
+  }
+  .input-imp{
+    text-align:center;
+    >input[type=number]{
+     display:inline-block;
+      width:20%
+    }
+  }
+  .respuesta-dias{
+  }
+}
